@@ -7,22 +7,27 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-   <div id="formCenter">
-       <form>
-           <label for="name"> Author Name:</label> <br>
-               <input type="text" name="author" id="name"><br>
-           <label for="title"> Book Title:</label> <br>
-               <input type="text" name="author" id="title"><br>
-           <label for="page"> No of Pages:</label> <br>
-               <input type="number" name="author" id="page"><br>
-           <label for="name"> read </label> <br>
-               <input type="checkbox" name="author" id="name"><br>
-           <div id="buttons">
-               <button id="cancel">Cancel</button>
-               <button type="submit">Add to Library</button>
-           </div>
-       </form>
-   </div>
+    <dialog id="formDialog">
+        <div id="formCenter">
+            <form>
+                <label for="name"> Author Name:</label> <br>
+                    <input type="text" name="author" id="name"><br>
+                <label for="title"> Book Title:</label> <br>
+                    <input type="text" name="author" id="title"><br>
+                <label for="page"> No of Pages:</label> <br>
+                    <input type="number" name="author" id="page"><br>
+                <label for="name"> Read </label> 
+                    <input type="checkbox" name="author" id="name"><br>
+                <div id="buttons">
+                    <button id="close">Close</button>
+                    <button type="submit">Add to Library</button>
+                </div>
+            </form>
+        </div>
+    </dialog>
+    <div>
+        <button id="addBook">Add Book</button>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>

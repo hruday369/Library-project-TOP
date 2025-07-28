@@ -1,21 +1,32 @@
 *{
-    box-sizing: border-box;
-    margin: 0%;
+    font-size: 20px;
 }
 
 #formCenter{
-    padding: 10%;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: none;
 }
-form{
-    padding: 3vmax;
+#formDialog{
+    padding: 0;
     border: 1px solid black;
     border-radius: 12px;
 }
+form{
+    padding: 3em;
+}
 label,input{
-    
-    padding: 0.5em 1.5em;
+    margin: 0.3em;
+    padding: 0.5em 0em 0.5em 0.2em;
+}
+button{
+    margin: 0.3em;
+    padding: 0.5em;
+}
+label{
+    padding-left: 0.2em;
+}
+#addBook{
+    margin: 20px;
 }
