@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+#formCenter{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+form{
+    padding: 3vmax;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+label,input{
+    
+    padding: 0.5em 1.5em;
+}
