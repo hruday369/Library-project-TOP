@@ -22,11 +22,37 @@ label,input{
 }
 button{
     margin: 0.3em;
-    padding: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 12px;
+
 }
 label{
     padding-left: 0.2em;
 }
 #addBook{
     margin: 20px;
+}
+#displaybook{
+    padding: 20px;
+    display: flex;
+}
+h1{
+    font-size: 40px;
+}
+#displaybook div{
+    border: 1px solid black;
+    max-width: 250px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px;
+}
+#readbtn{
+    padding: 5px 50px;
+    border: none;
+    border-radius: 20px;
+}
+#displaybook p{
+    display: inline;
+    margin: 25px;
 }
